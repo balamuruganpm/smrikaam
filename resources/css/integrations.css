@@ -1,0 +1,58 @@
+/* Custom styles */
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.orange-button {
+    background-color: var(--base-skin);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.orange-button:hover {
+    background-color: var(--base-skin);
+}
+
+#skills .col {
+    text-align: justify;
+}
+
+div.ud > div.h-100 > h3.text-center {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--base-skin);
+}
+
+.uf{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--base-skin);
+}
+
+section.mt-5 > h2.section-title {
+    margin-bottom: -1px;
+}

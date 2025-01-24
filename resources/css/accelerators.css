@@ -1,0 +1,55 @@
+
+
+.capabilities-section {
+    background-color: white;
+}
+
+.capability-card {
+    background-color: #f1f1f1;
+    color: black !important;
+}
+
+.capability-title, .capability-card p {
+    color: black
+}
+
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
+
+.fw-bolder {
+    font-weight: bolder !important;
+}
+
+h2, .h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+    h2, .h2 {
+        font-size: 2rem;
+    }
+}
+
+#features {
+    background-color: whitesmoke;
+}
+
+#skills {
+    background-color: white;
+}
+
+#faq {
+    background-color: whitesmoke;
+}

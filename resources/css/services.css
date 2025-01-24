@@ -1,0 +1,325 @@
+.display-4 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.btn-danger {
+    background-color: var(--base-skin);
+    border: 1px solid var(--base-skin);
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: transparent;
+    border: 1px solid var(--base-skin);
+    color: var(--base-skin);
+}
+
+
+
+.features-section {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #777777;
+    margin-bottom: 40px;
+
+}
+
+
+.feature-card {
+    background-color: rgba(182, 178, 178, 0.24);
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--base-skin); /* Change to a distinct color for feature titles */
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #555555;
+    font-size: 0.95rem;
+}
+
+/* Extra design tweaks */
+.feature-card strong {
+    color: #333333;
+}
+
+@media (min-width: 992px) {
+    .feature-card {
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+.capabilities-section {
+    padding: 60px 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.section-title-dark {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.section-subtitle-dark {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+}
+
+.capability-card {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.capability-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.capability-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #FFF; /* Accent color */
+    border-bottom: 2px solid #f05454;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.capability-card p {
+    color: #b0b0b0;
+    font-size: 0.95rem;
+}
+
+/* Extra styling */
+.capability-card strong {
+    color: #e0e0e0;
+}
+
+@media (min-width: 992px) {
+    .capability-card {
+        height: 100%;
+    }
+}
+
+.h-1001 {
+    height: 200px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base Color Variable */
+:root { /* Main theme color */
+    --light-background: #f7f9fc;
+    --card-bg: #ffffff;
+    --text-dark: #333333;
+    --text-light: #666666;
+}
+
+.tools-section {
+    padding: 80px 0;
+    background-color: var(--light-background);
+    color: var(--text-dark);
+}
+
+
+
+/* Capability Card Styling */
+.tools-section col {
+    height: 200px;
+}
+.tool-card {
+    background-color: var(--card-bg);
+    border-radius:5px;
+    padding: 30px;
+    text-align: center;
+    color: var(--text-dark);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.tool-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: var(--base-skin);
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.tool-card:hover .card-icon {
+    color: #333333;
+}
+
+.tool-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--base-skin);
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.tool-card:hover .tool-title {
+    color: var(--text-dark);
+}
+
+.tool-card p {
+    font-size: 1rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Fade-in animation for cards */
+.tool-card {
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.tool-card:nth-child(1) { animation-delay: 0.2s; }
+.tool-card:nth-child(2) { animation-delay: 0.4s; }
+.tool-card:nth-child(3) { animation-delay: 0.6s; }
+.tool-card:nth-child(4) { animation-delay: 0.8s; }
+.tool-card:nth-child(5) { animation-delay: 1.0s; }
+.tool-card:nth-child(6) { animation-delay: 1.2s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive styling */
+@media (min-width: 992px) {
+    .tool-card {
+        height: 300px;
+    }
+}
+
+
+
+
+
+
+
+#skills {
+    padding: 5%;
+    background-color: #f1f1f1;
+}
+
+#skills .icon {
+    color: var(--base-skin);
+    margin-bottom: 1rem;
+}
+
+
+#skills .fb {
+    padding: 5%;
+}
+
+#skills h3 {
+    color: #000;
+    font-size:1.5rem;
+}
+
+#skills h3 i{
+    margin-right: 15px;
+}
+
+#skills h1 {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 48px;
+    color: #000;
+}
+
+
+#skills p {
+    color: #222222;
+    font-size:1rem;
+}
+
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li::before {
+    content: "\2022";
+    color: var(--base-skin);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
