@@ -61,11 +61,13 @@
     border-bottom: 2px solid var(--base-skin);
     padding-bottom: 5px;
     margin-bottom: 15px;
+    text-align: left;
 }
 
 .feature-card p {
     color: #555555;
     font-size: 0.95rem;
+    text-align: left;
 }
 
 /* Extra design tweaks */
@@ -123,10 +125,12 @@
     border-bottom: 2px solid #f05454;
     padding-bottom: 5px;
     margin-bottom: 15px;
+    text-align: left;
 }
 
 .capability-card p {
     color: #b0b0b0;
+    text-align: left;
     font-size: 0.95rem;
 }
 
@@ -289,8 +293,13 @@
 }
 
 #skills h3 {
+font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
     color: #000;
-    font-size:1.5rem;
+    text-align: left;
 }
 
 #skills h3 i{
@@ -307,7 +316,7 @@
 
 #skills p {
     color: #222222;
-    font-size:1rem;
+    font-size:0.95rem;
 }
 
 

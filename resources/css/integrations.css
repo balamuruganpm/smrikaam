@@ -24,6 +24,10 @@
     transform: scale(1.02);
 }
 
+.text-justify {
+    text-align: left !important;
+}
+
 .orange-button {
     background-color: var(--base-skin);
     color: #fff;
@@ -38,21 +42,34 @@
 }
 
 #skills .col {
-    text-align: justify;
+    /* text-align: justify; */
 }
 
-div.ud > div.h-100 > h3.text-center {
+.col div h3 {
+    font-size: 1.5rem;
+}
+
+.col div p {
+    font-size: 0.95rem;
+}
+
+div.ud>div.h-100>h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--base-skin);
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.uf {
     text-decoration: underline;
+    font-size: 1.5rem !important;
     text-decoration-thickness: 3px;
     text-decoration-color: var(--base-skin);
 }
 
-.uf{
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: var(--base-skin);
-}
-
-section.mt-5 > h2.section-title {
+section.mt-5>h2.section-title {
     margin-bottom: -1px;
 }
