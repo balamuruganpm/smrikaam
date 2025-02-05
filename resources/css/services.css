@@ -6,8 +6,8 @@
     margin-bottom: 15px;
     color: #000;
     text-align: left;
+    height: 35%;
 }
-
 
 .display-4 {
     font-family: "Poppins", sans-serif;
@@ -73,6 +73,7 @@
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-align: left;
+    height: 35%;
 }
 
 .feature-card p {
@@ -138,6 +139,7 @@
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-align: left;
+    height: 35%;
 }
 
 .capability-card p {
