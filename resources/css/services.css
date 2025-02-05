@@ -1,3 +1,14 @@
+#skills h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #000;
+    text-align: left;
+}
+
+
 .display-4 {
     font-family: "Poppins", sans-serif;
     color: white;
@@ -108,6 +119,7 @@
 
 .capability-card {
     background-color: #1c1c1c;
+    height: 100%;
     border-radius: 10px;
     border: 1px solid #333333;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -290,16 +302,6 @@
 
 #skills .fb {
     padding: 5%;
-}
-
-#skills h3 {
-font-size: 1.5rem;
-    font-weight: bold;
-    border-bottom: 2px solid var(--base-skin);
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    color: #000;
-    text-align: left;
 }
 
 #skills h3 i{
