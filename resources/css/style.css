@@ -1161,6 +1161,14 @@ a {
 }
 
 /* why choose us? */
+.uf{
+  text-underline-offset: 8px !important;
+  line-height: 2.5rem !important;
+}
+div.ud > div.h-100 > h3.text-center {
+text-underline-offset: 8px !important;
+line-height: 2.5rem !important;
+}
 @media (max-width:575px) {
   #addition-card {
     display: none !important;
@@ -1169,8 +1177,15 @@ a {
 
 
 
+/* challenges we solve  */
 
-
+.underline-section .container .row .col .card .card-body h5 {
+  text-decoration: underline solid var(--base-skin) 2px;
+  text-underline-offset: 8px;
+}
+.mega_menu_item  h3 {
+  text-underline-offset: 8px !important;
+}
 
 
 
@@ -1344,4 +1359,39 @@ div.my-3 > div.collapse > ul.mb-3 > li {
 
 div.my-3 > div.collapse > ul.mb-3 > li::marker {
   color: #de4c4c;
+}
+div.justify-content-start > div.py-3 > div.section-min-height {
+  border-radius: 2px;
+}
+
+/* ul.nav > li.nav-item > button.nav-link {
+  color: white;
+} */
+
+ul.nav > li.nav-item > button.active {
+  color: white;
+}
+
+.bg-blue {
+  background-color: #05377d !important;
+}
+.under-line  .card-body  h3 {
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #FFF;
+	border-bottom: 2px solid #f05454;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+.under-line h2  { 
+ text-decoration: underline solid var(--base-skin) 2px; 
+  text-underline-offset: 8px;
+}
+.logo img {
+  width: 120% !important;
+}
+.uf {
+  text-decoration: none !important;
+  text-underline-offset: none !important;
+  border-bottom: 3px solid var(--base-skin) !important;
 }
