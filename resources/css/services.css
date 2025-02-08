@@ -9,6 +9,17 @@
     height: 35%;
 }
 
+.capability-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #000;
+    text-align: left;
+    height: 35%;
+}
+
 .display-4 {
     font-family: "Poppins", sans-serif;
     color: white;
