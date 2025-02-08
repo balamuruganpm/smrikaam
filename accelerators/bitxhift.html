@@ -27,7 +27,14 @@
     <link rel="stylesheet" href="../resources/css/integrations.css">
     <link rel="stylesheet" href="../resources/css/accelerators.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
+<style>
+    .capabilities-section .capability-title {
+        height: 33% !important;
+    }
+    .uf {
+        height: 38% !important;
+    }
+</style>
 </head>
 
 <body>
@@ -143,12 +150,12 @@
         <div class="container px-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
-                    <div class="my-5 text-center text-xl-start">
+                    <div class="my-5 text-center">
                         <h2 class="display-5 fw-bolder text-white mb-2">BitXhift</h2>
                         <p class="lead fw-normal text-white-50 mb-4">Unlock the power of your IoT data with Bitxhift
                             Accelerator—where seamless integration meets real-time insights for smarter decision-making.
                         </p>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-color-skin btn-lg px-4 me-sm-3" href="../contact-us.html">Get Started</a>
                         </div>
                     </div>
@@ -245,47 +252,56 @@
         </div>
     </section>
 
-    <section class="py-5" id="features">
-        <div class="container px-5 my-5">
-            <div class="row gx-5">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h2 class="fw-bolder mb-0">Benefits of <br>BitXhift</h2><br>
-                    <p>
-                        BitXhift empowers organizations to maximize the value of their IoT data, driving smarter
-                        operations and informed decision-making in an increasingly data-driven world. Whether you're
-                        looking to enhance your data integration strategy or optimize your IoT ecosystem, BitXhift
-                        provides the tools and capabilities you need to succeed.
-                    </p>
+    <section class="py-5 capabilities-section">
+        <div class="container text-center">
+            <div class="row gx-5 d-flex justify-content-center align-items-center">
+                <div class="col-lg-12 mb-5 mb-lg-0">
+                    <h2 class="section-title">Benefits of BitXhift</h2>
+                    <div class="all-heads-short"></div>
                 </div>
-                <div class="col-lg-8 under-line">
-                    <div class="row gx-5 row-cols-1 row-cols-md-2">
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                    class="bi bi-stack-overflow"></i></div>
-                            <h2 class="h5">Improved Decision-Making</h2>
-                            <p class="mb-0">Access to real-time insights helps organizations respond quickly to changes
-                                and opportunities.</p>
-                        </div>
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-ubuntu"></i></div>
-                            <h2 class="h5">Increased Efficiency</h2>
-                            <p class="mb-0">Automates routine data tasks, reducing manual effort and freeing up
-                                resources for strategic initiatives.</p>
-                        </div>
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                    class="bi bi-toggles2"></i></div>
-                            <h2 class="h5">Cost Savings</h2>
-                            <p class="mb-0">Optimizes data management processes, leading to reduced operational costs.
-                            </p>
-                        </div>
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-arrows-collapse-vertical"></i></div>
-                            <h2 class="h5">Better Collaboration</h2>
-                            <p class="mb-0">Provides a unified view of data, fostering collaboration across departments.
-                            </p>
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mt-4 justify-content-center">
+    
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-stack-overflow"></i>
+                            </div>
+                            <h4 class="capability-title">Improved Decision-Making</h4>
+                            <p>Access to real-time insights helps organizations respond quickly to changes and
+                                opportunities.</p>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-ubuntu"></i>
+                            </div>
+                            <h4 class="capability-title">Increased Efficiency</h4>
+                            <p>Automates routine data tasks, reducing manual effort and freeing up resources for strategic
+                                initiatives.</p>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-toggles2"></i>
+                            </div>
+                            <h4 class="capability-title">Cost Savings</h4>
+                            <p>Optimizes data management processes, leading to reduced operational costs.</p>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-arrows-collapse-vertical"></i>
+                            </div>
+                            <h4 class="capability-title">Better Collaboration</h4>
+                            <p>Provides a unified view of data, fostering collaboration across departments.</p>
+                        </div>
+                    </div>
+    
                 </div>
             </div>
         </div>

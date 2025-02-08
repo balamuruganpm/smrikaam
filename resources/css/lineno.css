@@ -1,0 +1,45 @@
+.capability-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #FFF;
+    /* Accent color */
+    border-bottom: 2px solid #f05454;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    height: 35% !important;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--base-skin);
+    /* Change to a distinct color for feature titles */
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    height: 35% !important;
+}
+
+#skills h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #000;
+    text-align: left;
+    height: 35% !important;
+}
+
+#skills .card h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--base-skin);
+    border-bottom: 2px solid var(--base-skin);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    height: 35%;
+}

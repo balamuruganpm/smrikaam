@@ -26,7 +26,17 @@
     <link rel="stylesheet" href="../resources/css/integrations.css">
     <link rel="stylesheet" href="../resources/css/accelerators.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
+<style>
+    .capabilities-section .capability-title {
+        height: 35% !important;
+    }
+    .capabilities-sections .capability-title {
+        height: 33% !important;
+    }
+    .uf {
+        height: 35% !important;
+    }
+</style>
 </head>
 
 <body>
@@ -142,17 +152,17 @@
         <div class="container px-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
-                    <div class="my-5 text-center text-xl-start">
+                    <div class="my-5 text-center">
                         <h2 class="display-5 fw-bolder text-white mb-2">ParseMaster</h2>
                         <p class="lead fw-normal text-white-50 mb-4">Transform your data chaos into clarity with
                             ParseMaster—where complex parsing meets effortless simplicity</p>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-color-skin btn-lg px-4 me-sm-3" href="../contact-us.html">Get Started</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5 w-75"
-                        src="../resources/images/accelerators/parse-master.png" alt="..." /></div>
+                <!-- <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5 w-75"
+                        src="../resources/images/accelerators/parse-master.png" alt="..." /></div> -->
                 <!--            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>-->
             </div>
         </div>
@@ -231,47 +241,64 @@
         </div>
     </section>
 
-    <section class="py-5" id="features">
-        <div class="container px-5 my-5">
-            <div class="row gx-5">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h2 class="fw-bolder mb-0">Benefits of <br>ParseMaster</h2><br>
-                    <p>
-                        By leveraging these benefits, users can transform their data handling processes, driving better insights and more informed decision-making.
-                    </p>
+    <section class="py-5 capabilities-sections" id="features">
+        <div class="container text-center">
+            <div class="row gx-5 d-flex justify-content-center align-items-center">
+                <div class="col-lg-12 mb-5 mb-lg-0">
+                    <h2 class="section-title">Benefits of ParseMaster</h2>
+                    <div class="all-heads-short"></div>
+                    
                 </div>
-                <div class="col-lg-8 under-line">
-                    <div class="row gx-5 row-cols-1 row-cols-md-2">
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                    class="bi bi-collection"></i></div>
-                            <h2 class="h5">Streamlined Data Processing</h2>
-                            <p class="mb-0">Automate the parsing and flattening of complex data formats, significantly reducing manual effort and time.</p>
-                        </div>
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                    class="bi bi-building"></i></div>
-                            <h2 class="h5">Enhanced Data Accessibility</h2>
-                            <p class="mb-0">Convert intricate nested structures into user-friendly, tabular formats that make data analysis and reporting a breeze.</p>
-                        </div>
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                    class="bi bi-toggles2"></i></div>
-                            <h2 class="h5">Versatile Format Support</h2>
-                            <p class="mb-0">Easily handle a variety of data formats, including XML, JSON, CSV, and more, making it a one-stop solution for diverse data needs.
-                            </p>
-                        </div>
-                        <div class="col mb-5 h-100 rounded-3 p-4" style="border: 1px solid black;">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-crosshair"></i></div>
-                            <h2 class="h5">Customizable Data Mapping</h2>
-                            <p class="mb-0">Tailor data transformations to fit specific business requirements, ensuring that the output aligns perfectly with your needs.
-                            </p><br>
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mt-4 justify-content-center">
+    
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-collection"></i>
+                            </div>
+                            <h4 class="capability-title">Streamlined Data Processing</h4>
+                            <p>Automate the parsing and flattening of complex data formats, significantly reducing manual
+                                effort and time.</p>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <h4 class="capability-title">Enhanced Data Accessibility</h4>
+                            <p>Convert intricate nested structures into user-friendly, tabular formats that make data
+                                analysis and reporting a breeze.</p>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-toggles2"></i>
+                            </div>
+                            <h4 class="capability-title">Versatile Format Support</h4>
+                            <p>Easily handle a variety of data formats, including XML, JSON, CSV, and more, making it a
+                                one-stop solution for diverse data needs.</p>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="capability-card p-4 shadow-sm h-100" style="border: 1px solid black;">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-crosshair"></i>
+                            </div>
+                            <h4 class="capability-title">Customizable Data Mapping</h4>
+                            <p>Tailor data transformations to fit specific business requirements, ensuring that the output
+                                aligns perfectly with your needs.</p>
+                        </div>
+                    </div>
+    
                 </div>
             </div>
         </div>
     </section>
+
 
     <section id="skills" class="whychooseus">
         <div class="container-fluid">
