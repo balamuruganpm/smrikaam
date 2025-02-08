@@ -61,15 +61,16 @@ div.ud>div.h-100>h3 {
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-align: left;
-    height: 35% !important;
+    /* height: 35% !important; */
 }
 
 .uf {
-    text-decoration: underline;
-    font-size: 1.5rem !important;
-    height: 35% !important;
-    text-decoration-thickness: 3px;
-    text-decoration-color: var(--base-skin);
+    font-size: 1.5rem;
+        font-weight: bold;
+        border-bottom: 2px solid var(--base-skin);
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        text-align: left;
 }
 
 section.mt-5>h2.section-title {
