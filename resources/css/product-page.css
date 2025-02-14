@@ -463,20 +463,3 @@ footer {
 }
 
 
-#services .card-title, .pricing-card-title {
-    font-size: 1.5rem;
-        font-weight: bold;
-        border-bottom: 2px solid var(--base-skin);
-        padding-bottom: 5px;
-        margin-bottom: 15px;
-        text-align: left;
-}
-
-.card-body .fas {
-        text-align: left !important;
-}
-
-#services .card-text , .card-body p {
-    font-family: 0.9rem;
-        text-align: left;
-}

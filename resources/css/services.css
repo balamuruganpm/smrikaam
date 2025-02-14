@@ -1,5 +1,5 @@
 #skills h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     border-bottom: 2px solid var(--base-skin);
     padding-bottom: 5px;
@@ -66,7 +66,7 @@
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: var(--base-skin); /* Change to a distinct color for feature titles */
     border-bottom: 2px solid var(--base-skin);
