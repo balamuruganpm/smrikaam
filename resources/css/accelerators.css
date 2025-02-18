@@ -47,7 +47,7 @@ h2, .h2 {
 }
 
 .skills .card h3 {
-    font-size: 3.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: var(--base-skin);
     border-bottom: 2px solid var(--base-skin);
