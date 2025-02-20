@@ -1373,7 +1373,7 @@ ul.nav > li.nav-item > button.active {
 }
 
 .bg-blue {
-  background-color: #05377d !important;
+  background-color: #00193d !important;
 }
 .under-line  .card-body  h3 {
 	font-size: 1.4rem;
@@ -1393,5 +1393,5 @@ ul.nav > li.nav-item > button.active {
 .uf {
   text-decoration: none !important;
   text-underline-offset: none !important;
-  border-bottom: 3px solid var(--base-skin) !important;
+  /* border-bottom: 3px solid var(--base-skin) !important; */
 }
