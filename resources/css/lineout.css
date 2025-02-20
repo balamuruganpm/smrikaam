@@ -1,0 +1,28 @@
+  .text-justify {
+      text-align: justify !important;
+  }
+
+  .container p {
+      text-align: justify !important;
+  }
+
+  .capability-title,
+  .feature-title {
+      /* color: var(--base-skin); */
+      border-bottom: 0px !important;
+      line-height: 89px;
+  }
+
+  .all-heads {
+      line-height: 89px;
+  }
+
+  #skill h3 {
+      /* color: var(--base-skin); */
+      border-bottom: 0px !important;
+  }
+
+  .under-line .card-body h3 {
+      /* color: var(--base-skin); */
+      border-bottom: 0px !important;
+  }
