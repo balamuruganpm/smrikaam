@@ -1,28 +1,47 @@
-  .text-justify {
-      text-align: justify !important;
-  }
+.text-justify {
+    text-align: justify !important;
+}
 
-  .container p {
-      text-align: justify !important;
-  }
+.container div p {
+    text-align: justify !important;
+}
 
-  .capability-title,
-  .feature-title {
-      /* color: var(--base-skin); */
-      border-bottom: 0px !important;
-      line-height: 89px;
-  }
+.section-title {
+    font-size: 2.4rem;
+    text-align: center;
+}
 
-  .all-heads {
-      line-height: 89px;
-  }
+.section-subtitle-dark, .section-subtitle {
+    text-align: center !important;
+}
 
-  #skill h3 {
-      /* color: var(--base-skin); */
-      border-bottom: 0px !important;
-  }
+.capability-title,
+.feature-title,
+.section-title,
+.section-title-dark {
+    /* color: var(--base-skin); */
+    border-bottom: 0px !important;
+    /* font-size: 2.4rem !important; */
+}
 
-  .under-line .card-body h3 {
-      /* color: var(--base-skin); */
-      border-bottom: 0px !important;
-  }
+.section-title{
+    line-height: 89px;
+    /* font-size: 2.4rem !important; */
+}
+
+.card-title {
+    text-decoration: none !important;
+}
+.all-heads {
+    line-height: 89px;
+}
+
+#skill h3 {
+    /* color: var(--base-skin); */
+    border-bottom: 0px !important;
+}
+
+.under-line .card-body h3 {
+    /* color: var(--base-skin); */
+    border-bottom: 0px !important;
+}
