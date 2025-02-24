@@ -30,7 +30,12 @@
 }
 
 .card-title {
+font-size: 1.4rem !important;
     text-decoration: none !important;
+}
+
+.card-text {
+    font-size: 0.9rem !important;
 }
 .all-heads {
     line-height: 89px;
@@ -44,4 +49,38 @@
 .under-line .card-body h3 {
     /* color: var(--base-skin); */
     border-bottom: 0px !important;
+}
+
+.lead {
+    font-size: 1.25rem !important;
+}
+
+.card-body h3 {
+    font-size: 1.4rem !important;
+}
+
+.card-body p , li{
+    font-size: 0.9rem !important;
+}
+
+.section-subtitle {
+    font-size: 1.1rem !important;
+    color: #777777 !important;
+}
+
+.accordion-body , #enefits p {
+    font-size: 0.9rem !important;
+    color: #777777 !important;
+}
+
+/* display none the icon */
+/* .container-fluid .row .col .card .card-body .fas {
+    display: none;
+} */
+
+.banner .description {
+    font-size: 1.25rem !important;
+}
+.all-heads {
+    font-size: 2.4rem !important;
 }
