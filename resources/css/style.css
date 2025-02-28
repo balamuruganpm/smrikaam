@@ -1395,3 +1395,7 @@ ul.nav > li.nav-item > button.active {
   text-underline-offset: none !important;
   /* border-bottom: 3px solid var(--base-skin) !important; */
 }
+
+.logo {
+  cursor: pointer;
+}
